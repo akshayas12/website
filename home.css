@@ -1,0 +1,331 @@
+body{
+    margin:0;
+    padding: 0;
+   
+}
+#container{
+    margin: 0;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+ #header{
+    display: flex;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+}
+#header li{
+    display: inline;
+    padding: 1%;
+    width: 75px;
+    height: 50px;
+}
+img{
+    margin: 0;
+    padding: 0px 2px;
+    width:40px;
+    position: relative;
+}
+li:hover{
+    background-color: #07bc74e6
+}
+li img:hover{
+   background-color: white;
+}
+
+ #but1{
+       position: absolute;
+       right: 30px;
+       top:20px;
+       border: none;
+       background-color: #dceae4e6;
+       border-radius: 30px 30px 30px 30px;
+       height: 40px;
+       width: 90px;
+    }
+
+#but2{
+    position: absolute;
+    right: 100px;
+    top:20px;
+    border: none;
+    background-color: #07bc74e6;
+    border-radius: 30px 30px 30px 30px;
+    height: 40px;
+    width: 90px;
+}
+#but1:hover ,#but2:hover {
+    background-color: #07bc74e6;
+    color: #fff;
+}
+
+
+.parent{
+    background-color: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+ .div1 {
+    display: flex;
+     height: 40px;
+    background-color: #282A35!important;
+    
+}
+.div1 a{
+    display: inline;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+   
+}
+a:hover{
+    background-color: rgb(2, 15, 53);
+    color: white;
+    
+ }
+#searchicon img{
+ color: white;
+ position: absolute;
+ top:70px;
+ height: 20px;
+ width: 20px;
+}
+
+
+  .div2{
+    background-color:#282A35!important; ;
+    height: 450px;
+  
+  }
+  .div2 .head1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.head2{
+    flex: 1;
+    text-align: center;
+    color: #ffc0c7;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+ /* .searchform {
+    padding:10px;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 25px;
+    float: left;
+    width: 80%;
+    padding-left: 25px;
+    background-color: #fff;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 1px solid rgb(112, 241, 112);
+    outline: 0; */
+
+ #search2{
+    width: 500px;
+    height: 46px;
+    position: absolute;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px;
+ }
+
+#searchbut2{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top:355px;
+    left:910px;
+    border: none;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color:#07bc74e6;
+}
+#link1{
+  color: white;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  top: 430px;
+  left:600px;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    background-color: #D9EEE1;
+    height: 700px;
+   
+
+}
+.div-left{
+    background-color: #D9EEE1;
+    position: absolute;
+    left: 350px;
+    width: 500px;
+    height: 600px;
+}
+
+.div-left #head3{
+    position: relative;
+    top:5rem;
+    left:3rem;
+    font-size: 100px;
+    font-weight: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-left #prgh1{
+    position: relative;
+    left:2rem;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.butnlink{
+    position: relative;
+    top:0.1rem;
+    left:5rem;
+    /* background-color: #07bc74e6; */
+    width: 200px;
+    height: 50px;
+    border-radius: 35px 35px 35px 35px;
+    border: none;
+}
+#butnlink1{
+    background-color:#07bc74e6 ;
+}
+#butnlink2{
+    background-color: #f9ed86;
+}
+#butnlink3{
+    background-color: #2a2645;
+
+}
+#butnlink4
+{
+    background-color: #fbc5eb;
+
+}
+.link1{
+    font-size: 20px;
+    color: white;
+    text-decoration:none;
+}
+.sec1 .right .html{
+    width: 500px;
+    position: absolute;
+    top:800px;
+    right:40px;
+    border-color: rgb(185, 182, 182);
+    border-style:solid ;
+    border-width:5px 5px 50px 5px; 
+}
+.butnserch{
+    background-color: #07bc74e6 ;
+    position: absolute;
+    top:68rem;
+    right:350px;
+    width: 200px;
+    height: 50px;
+    border-radius: 35px 35px 35px 35px;
+    border: none;
+}
+.sec2{
+display: flex;
+flex-direction: row;
+background-color: #f7f181;
+height: 700px;
+}
+.div-left2 #head4{
+    position: relative;
+    top:5rem;
+    left:3rem;
+    font-size: 100px;
+    font-weight: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-left2{
+    background-color: #f7f181;
+    position: absolute;
+    left: 350px;
+    width: 500px;
+    height: 600px;
+}
+.div-left2 #prgh2{
+    position: relative;
+    left:-4rem;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec2 .div-right .css{
+width: 500px;
+    position: absolute;
+    top:90rem;
+    right:30px;
+    border-color: rgb(185, 182, 182);
+    border-style:solid ;
+    border-width:5px 5px 50px 5px;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    background-color: #07012b;
+    height: 600px;
+    }
+.div-left3 #head5{
+       color: white;
+        position: relative;
+        top:1rem;
+        left:1rem;
+        font-size: 60px;
+        font-weight: 300px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+.div-left3{
+        background-color: #07012b;
+        position: absolute;
+        left: 300px;
+        width: 500px;
+        height: 600px;
+}
+    .div-left3 #prgh3{
+        color: white;
+        position: relative;
+        left:-4rem;
+        font-size: 25px;
+        font-weight: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .sec3 .div-right1 .js{
+    width: 500px;
+        position: absolute;
+        top:130rem;
+        right:30px;
+        border-color: rgb(185, 182, 182);
+        border-style:solid ;
+        border-width:5px 5px 50px 5px;
+    }
+    .sec4{
+        display: flex;
+        flex-direction: column;
+        background-color: #e5e3f3;
+        height: 100px;
+        }
+footer p{
+    color: rgb(13, 16, 14);
+}
+footer img{
+    position: absolute;
+    left: 40rem;
+}
+    
+    
